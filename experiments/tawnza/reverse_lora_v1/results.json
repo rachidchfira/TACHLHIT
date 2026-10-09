@@ -1,0 +1,32 @@
+{
+  "distinct_train_pairs": 4000,
+  "steps": 470,
+  "training_presentations": 3760,
+  "evaluation_rows": 80,
+  "original_baseline_chrf_no_guard": 22.02186851109059,
+  "initial_chrf_with_guard": 23.051577734800873,
+  "best_chrf_with_guard": 28.110490607478887,
+  "last_chrf_with_guard": 28.110490607478887,
+  "best_step": 470,
+  "improvement_vs_guarded_baseline": 5.058912872678015,
+  "evaluation_trace": [
+    {
+      "step": 0,
+      "chrf": 23.051577734800873
+    },
+    {
+      "step": 200,
+      "chrf": 26.352109727932344
+    },
+    {
+      "step": 400,
+      "chrf": 27.06944616156301
+    },
+    {
+      "step": 470,
+      "chrf": 28.110490607478887
+    }
+  ],
+  "interrupted": false,
+  "notes": "Target token tzm_Tfng is Central Atlas proxy, not Souss-specific."
+}

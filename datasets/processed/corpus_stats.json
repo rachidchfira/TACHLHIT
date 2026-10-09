@@ -1,0 +1,11 @@
+{
+  "total_unique_records": 23291,
+  "duplicates_removed": 36,
+  "with_english": 21116,
+  "with_latin": 22821,
+  "with_tifinagh": 23139,
+  "sources": {
+    "tatoeba": 22669,
+    "amazic": 622
+  }
+}

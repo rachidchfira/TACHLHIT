@@ -1,0 +1,173 @@
+{
+  "Tachelhit Tatoeba": {
+    "error": "Config name is missing.\nPlease pick one among the available configs: ['shi_tifinagh', 'en_shi_tifinagh']\nExample of usage:\n\t`load_dataset('abdelhaqueidali/Tashelhit-Tifinagh-Latin-Parallel-Tatoeba-Dataset', 'shi_tifinagh')`"
+  },
+  "MT560": {
+    "train": {
+      "rows": 15288,
+      "columns": [
+        "eng",
+        "shi"
+      ],
+      "examples": [
+        {
+          "eng": "It is no great thing therefore if his servants also masquerade as servants of righteousness , whose end will be according to their works .",
+          "shi": "a @-@ ur @-@ ntɛjjab ig ̇ -nz ̣ ra ih ̬ ddamn @-@ ns ar @-@ tbddaln ssift @-@ nsn baš ad @-@ rwasn ih ̬ ddamn n @-@ ufulki. imma ntni rad @-@ asn @-@ yili mad @-@ asn @-@ igan ."
+        },
+        {
+          "eng": "testifying both to Jews and to Greeks repentance toward God , and faith toward our Lord Jesus .",
+          "shi": "ar @-@ bdda @-@ ttinig ̇ s @-@ lmɛqul i @-@ ayt @-@ yudaya ula ibrraniyn ad @-@ fln kullu mad @-@ skarn yʷh ̬ šn , wrrin s @-@ rbbi amnn s @-@ siditnng ̇ yasuɛ ."
+        },
+        {
+          "eng": "Remembering without ceasing your work of faith , and labour of love , and patience of hope in our Lord Jesus Christ , in the sight of God and our Father ;",
+          "shi": "ar @-@ d @-@ nswingim g ̇ -lgddam n @-@ rbbi babatnng ̇ mamnk a @-@ kullu @-@ tskarm s @-@ liman @-@ nnun , ar @-@ tth ̬ damm s @-@ lh ̣ nant , tzgam g ̇ -rrja n @-@ siditnng ̇ yasuɛ lmasih ̣ ."
+        },
+        {
+          "eng": "always in every request of mine on behalf of you all making my requests with joy ,",
+          "shi": "ar @-@ tfrah ̣ g ̇ g ̇ akud nna @-@ ti @-@ td ̣ alabg ̇ f @-@ ssibt @-@ nnun kullukn ,"
+        },
+        {
+          "eng": "And the Word was made flesh , and dwelt among us , ( and we beheld his glory , the glory as of the only begotten of the Father , ) full of grace and truth .",
+          "shi": "awal @-@ an iwrri iga bnadm , izdg ̇ g ̇ -gratnng ̇ , nz ̣ r lmjd @-@ ns. iga lmjd n @-@ walli igan yan dar babas , tigat gis lbaraka d @-@ lh ̣ qq ."
+        }
+      ]
+    }
+  },
+  "Amazic": {
+    "train": {
+      "rows": 3518,
+      "columns": [
+        "username",
+        "src",
+        "tgt",
+        "src_text",
+        "tgt_text",
+        "srcVar",
+        "tgtVar",
+        "validation",
+        "isValidated",
+        "createdAt",
+        "updatedAt",
+        "isDiscarded",
+        "isReported"
+      ],
+      "examples": [
+        {
+          "username": null,
+          "src": "en",
+          "tgt": "zgh",
+          "src_text": "I never liked that one anyway.",
+          "tgt_text": "ⵓⵔ ⵉⵃⴱⵓⵖ ⴰⴽⴽⵡ ⴰⵢⴰ.",
+          "srcVar": null,
+          "tgtVar": "Tachelhit",
+          "validation": -2,
+          "isValidated": true,
+          "createdAt": {
+            "$date": {
+              "$numberLong": "1704803194649"
+            }
+          },
+          "updatedAt": {
+            "$date": {
+              "$numberLong": "1705692625680"
+            }
+          },
+          "isDiscarded": null,
+          "isReported": null
+        },
+        {
+          "username": null,
+          "src": "en",
+          "tgt": "zgh",
+          "src_text": "I saw Yoshida for the first time in five years.",
+          "tgt_text": "ⵥⵕⴰⵖ ⵊⵓⵙⵉⴷⴰ ⴰⵎⵣⵡⴰⵔⵓ ⴳ ⵙⵎⵎⵓⵙ ⵏ ⵉⵙⴳⴳⵡⴰⵙⵏ.",
+          "srcVar": null,
+          "tgtVar": "Tachelhit",
+          "validation": -2,
+          "isValidated": true,
+          "createdAt": {
+            "$date": {
+              "$numberLong": "1704803602940"
+            }
+          },
+          "updatedAt": {
+            "$date": {
+              "$numberLong": "1706239948133"
+            }
+          },
+          "isDiscarded": null,
+          "isReported": null
+        },
+        {
+          "username": null,
+          "src": "en",
+          "tgt": "zgh",
+          "src_text": "I have never believed in wars.",
+          "tgt_text": "ⵓⵔ ⵙⵙⵉⵖⵖⵉⵖ ⴰⵔⴰ ⴳ ⵉⵎⵏⵖⵉⵢⵏ.",
+          "srcVar": null,
+          "tgtVar": "Tarifit",
+          "validation": 2,
+          "isValidated": true,
+          "createdAt": {
+            "$date": {
+              "$numberLong": "1704803744648"
+            }
+          },
+          "updatedAt": {
+            "$date": {
+              "$numberLong": "1707239900019"
+            }
+          },
+          "isDiscarded": null,
+          "isReported": null
+        },
+        {
+          "username": null,
+          "src": "en",
+          "tgt": "zgh",
+          "src_text": "I apologized for having been late for school.",
+          "tgt_text": "ⵙⵙⵉⵖⵖ ⴰⵙ ⴰⵙⵏⴼⵍ ⵏ ⵜⵉⵣⵉ ⵖⵔ ⵜⵉⵏⵎⵍ.a",
+          "srcVar": null,
+          "tgtVar": "Central",
+          "validation": -2,
+          "isValidated": true,
+          "createdAt": {
+            "$date": {
+              "$numberLong": "1704804566632"
+            }
+          },
+          "updatedAt": {
+            "$date": {
+              "$numberLong": "1704962543136"
+            }
+          },
+          "isDiscarded": null,
+          "isReported": null
+        },
+        {
+          "username": null,
+          "src": "en",
+          "tgt": "zgh",
+          "src_text": "The play was based on a true story.",
+          "tgt_text": "ⵜⵍⵍⴰ ⵜⵎⵣⴳⵓⵏⵜ ⵅⴼ ⵢⴰⵜ ⵜⵏⴳⵓⵔⵉ.",
+          "srcVar": null,
+          "tgtVar": "Other",
+          "validation": -2,
+          "isValidated": true,
+          "createdAt": {
+            "$date": {
+              "$numberLong": "1704879531012"
+            }
+          },
+          "updatedAt": {
+            "$date": {
+              "$numberLong": "1706540307012"
+            }
+          },
+          "isDiscarded": null,
+          "isReported": null
+        }
+      ]
+    }
+  }
+}

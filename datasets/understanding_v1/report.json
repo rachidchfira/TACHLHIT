@@ -1,0 +1,113 @@
+{
+  "important": [
+    "All labels are automated heuristics, NOT native-verified translations or dialect certification.",
+    "Multiple English targets are preserved because they may be legitimate alternatives.",
+    "Exact/near-duplicate checks do not guarantee semantic train/test independence.",
+    "Existing train/validation/test datasets were read only; no model training occurred.",
+    "Do not train on train_all_candidates until reviewing leakage flags; conversation/general subsets exclude flagged held-out variants."
+  ],
+  "source_split_counts": {
+    "train": 19247,
+    "validation": 1085,
+    "test": 1103
+  },
+  "output_counts": {
+    "train_all_candidates": 19247,
+    "train_conversation_candidates": 5295,
+    "train_general_candidates": 13908,
+    "train_review_flags": 1455,
+    "cross_split_near_duplicates": 44
+  },
+  "flags_and_dedup_counts": {
+    "kept": 19247,
+    "general_candidate": 13945,
+    "conversation_candidate": 5302,
+    "multiple_valid_or_conflicting_targets_review": 1420,
+    "heldout_punctuation_variant_review": 44,
+    "long_text_review": 10
+  },
+  "examples_conversation": [
+    {
+      "shi": "'Ma iga mayann?\" \"Axlul ayann.\"",
+      "en": "What's that? \"It's a booger.\"",
+      "score": 5
+    },
+    {
+      "shi": "A amkirrs!",
+      "en": "You traitor!",
+      "score": 4
+    },
+    {
+      "shi": "A aɣddar!",
+      "en": "You traitor!",
+      "score": 4
+    },
+    {
+      "shi": "A amxlaw!",
+      "en": "You fool!",
+      "score": 4
+    },
+    {
+      "shi": "A anafal!",
+      "en": "You fool!",
+      "score": 4
+    },
+    {
+      "shi": "A aɣẓn!",
+      "en": "You monster!",
+      "score": 4
+    },
+    {
+      "shi": "A iblis!",
+      "en": "You devil!",
+      "score": 4
+    },
+    {
+      "shi": "A igllin!",
+      "en": "Poor you!",
+      "score": 4
+    }
+  ],
+  "examples_general": [
+    {
+      "shi": "''Agldun n tillas'' isnamkn ''Cciṭan.''",
+      "en": "The prince of darkness means \"Satan.\"",
+      "score": 1
+    },
+    {
+      "shi": "10:00 ayad nnican.",
+      "en": "It's exactly 10:00.",
+      "score": 1
+    },
+    {
+      "shi": "2:30 a ɣ rad iddu Tom, yak?",
+      "en": "Tom is leaving at 2:30, isn't he?",
+      "score": 3
+    },
+    {
+      "shi": "5 d kra ayad.",
+      "en": "It's 5 something.",
+      "score": 1
+    },
+    {
+      "shi": "A amdduqqr.",
+      "en": "You moron.",
+      "score": 3
+    },
+    {
+      "shi": "A tamdduqqrt.",
+      "en": "You moron.",
+      "score": 3
+    },
+    {
+      "shi": "A asulil.",
+      "en": "You rock.",
+      "score": 3
+    },
+    {
+      "shi": "A ṛbbi, fk iyi kra n tmatart.",
+      "en": "God, give me a sign.",
+      "score": 3
+    }
+  ]
+}

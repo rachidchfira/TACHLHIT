@@ -1,0 +1,21 @@
+{
+  "raw": 21438,
+  "rejected": 1,
+  "exact_or_normalized_duplicates_removed": 1,
+  "train": 17878,
+  "validation": 979,
+  "ambiguous_source_groups": 719,
+  "test": 997,
+  "dataset": "abdelhaqueidali/Tashelhit-Tifinagh-Latin-Parallel-Tatoeba-Dataset",
+  "config": "en_shi_tifinagh",
+  "output": "datasets/reverse_translation/v1",
+  "total_clean": 19854,
+  "conflicting_rows": 1582,
+  "split_method": "SHA256 of normalized Tachelhit source; 90/5/5",
+  "limitations": [
+    "No near-duplicate semantic filtering",
+    "No human verification of translations",
+    "Check source dataset license and attribution before distribution",
+    "Other datasets intentionally excluded pending audit"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "added_tokens_decoder": {
+    "777": {
+      "content": "</s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1035": {
+      "content": "<unk>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "59385": {
+      "content": "<pad>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "backend": "custom",
+  "clean_up_tokenization_spaces": true,
+  "eos_token": "</s>",
+  "is_local": false,
+  "local_files_only": false,
+  "model_max_length": 1024,
+  "pad_token": "<pad>",
+  "separate_vocabs": false,
+  "source_lang": "mul",
+  "sp_model_kwargs": {},
+  "target_lang": "eng",
+  "tokenizer_class": "MarianTokenizer",
+  "unk_token": "<unk>"
+}

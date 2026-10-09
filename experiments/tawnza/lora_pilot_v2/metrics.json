@@ -1,0 +1,9 @@
+{
+  "steps": 200,
+  "examples_seen": 1600,
+  "validation_examples": 100,
+  "before_chrf": 29.481758622896336,
+  "after_chrf": 29.893149687422543,
+  "change": 0.41139106452620666,
+  "last_train_loss": 2.736961007118225
+}

@@ -1,0 +1,29 @@
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# System and temporary files
+.DS_Store
+*.log
+tmp/
+temp/
+.cache/
+huggingface/
+wandb/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+*service-account*.json
+

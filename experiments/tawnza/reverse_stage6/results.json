@@ -1,0 +1,31 @@
+{
+  "step_count": 406,
+  "sentence_presentations": 3248,
+  "distinct_new_training_pairs_selected": 12000,
+  "fresh_validation_size": 240,
+  "initial_chrf": 28.806445134908454,
+  "best_chrf": 29.308548677024042,
+  "last_chrf": 29.308548677024042,
+  "best_step": 406,
+  "gain_on_new_validation": 0.5021035421155879,
+  "evaluations": [
+    {
+      "step": 0,
+      "chrf": 28.806445134908454
+    },
+    {
+      "step": 200,
+      "chrf": 29.30556185219241
+    },
+    {
+      "step": 400,
+      "chrf": 29.14267089777628
+    },
+    {
+      "step": 406,
+      "chrf": 29.308548677024042
+    }
+  ],
+  "stop_reason": "training_time_limit",
+  "note": "tzm_Tfng is a Central Atlas proxy; scores do not verify Souss naturalness."
+}

@@ -1,0 +1,32 @@
+{
+  "version": "v4_review_queues_v1",
+  "training_approved": false,
+  "counts": {
+    "awal_latin": 89,
+    "awal_tifinagh": 196,
+    "darija_unique_pairs": 759,
+    "darija_source_strings_with_multiple_translations": 75
+  },
+  "original_audits": {
+    "awal": {
+      "total_downloaded_text_rows": 3518,
+      "categories": {
+        "unverified_or_rejected": 265,
+        "wrong_language_or_variety": 2902,
+        "novel_tifinagh_review": 196,
+        "overlap_or_duplicate": 66,
+        "novel_latin_review": 89
+      },
+      "license": "cc-by-2.0"
+    },
+    "darija": {
+      "total_downloaded_text_rows": 1386,
+      "categories": {
+        "duplicate_pair": 627,
+        "new_text_pairs_needing_review": 759
+      },
+      "license": "mit"
+    }
+  },
+  "note": "Darija pairs lack an English reference and must NEVER be silently treated as SHI-English pairs. Platform validation is not native approval."
+}

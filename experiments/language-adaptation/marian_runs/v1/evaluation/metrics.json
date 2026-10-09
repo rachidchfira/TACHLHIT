@@ -1,0 +1,26 @@
+{
+  "test_examples": 1103,
+  "seed": 42,
+  "device": "mps",
+  "generation": {
+    "batch_size": 8,
+    "max_input_tokens": 160,
+    "max_new_tokens": 80,
+    "num_beams": 4
+  },
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "sacrebleu": "2.6.0"
+  },
+  "baseline": {
+    "bleu": 1.7842,
+    "chrf": 16.0136,
+    "seconds": 156.9
+  },
+  "finetuned": {
+    "bleu": 16.5562,
+    "chrf": 31.425,
+    "seconds": 65.9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source_dataset": "/Users/rachd/soussvoice/datasets/external/tawnza/clean_v3",
+  "starting_adapter": "/Users/rachd/soussvoice/experiments/tawnza/stage3/best_adapter",
+  "seed": 20261008,
+  "max_steps": 1500,
+  "microbatch": 2,
+  "accumulation": 4,
+  "time_limit_seconds": 3600,
+  "validation_count": 240,
+  "learning_rate": 5e-05,
+  "date_utc": "2026-10-08T15:04:26.435258+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "version": "native_review_batch_02",
+  "new_reviews_are_not_approved": true,
+  "reviewed_accurate_v1": 24,
+  "existing_review_protected_overlap": 0,
+  "latin_remaining_eligible": 77,
+  "tifinagh_remaining_eligible": 184,
+  "batch_size_each": 12,
+  "sources_sha256": {
+    "datasets/understanding_v4/source_audit_v1/awal_new_latin_review.csv": "2f2f341b4c8c9910e277314e79500d82929747ac5273c81dfaf0308a08e231fc",
+    "datasets/understanding_v4/source_audit_v1/awal_new_tifinagh_review.csv": "893a03a0f079716abbb4075483d498df65f61a1516be5b0b4e72384f2264187c",
+    "datasets/understanding_v4/tifinagh_latin_review_v1/all_tifinagh_as_latin.csv": "4f056f09dc218d0566048190a7f33c4c02b2128b239b3e4b0eff398de94e919a",
+    "datasets/understanding_v4/native_review_batch_01/native_decisions/awal_latin_review_sample.csv": "03dcfb3c0c69bbf405e5f6582e8c90e2596194d968a50915ff2a443cd2ee55d2",
+    "datasets/understanding_v4/tifinagh_latin_review_v1/native_decisions/latin_review_sample.csv": "275e243dfe38d07a186262afd10afbec25c4da1942c13a4492ffb1787296203f"
+  },
+  "name_correction_ledger_sha256": "2761c3c069fbda4f81aecb308b4779b55f11e03c9c010e233de5791745bd4422",
+  "notes": "Tom manually corrected in isolated ledger. Other proper names flagged only. No automatic training approval."
+}

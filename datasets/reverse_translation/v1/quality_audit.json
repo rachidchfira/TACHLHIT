@@ -1,0 +1,49 @@
+{
+  "splits": {
+    "train": {
+      "rows": 17878,
+      "missing_tachelhit": 0,
+      "missing_english": 0,
+      "duplicate_pairs": 0,
+      "tachelhit_over_200_chars": 6,
+      "english_over_200_chars": 6,
+      "unique_tachelhit": 17878,
+      "unique_english": 13664
+    },
+    "validation": {
+      "rows": 979,
+      "missing_tachelhit": 0,
+      "missing_english": 0,
+      "duplicate_pairs": 0,
+      "tachelhit_over_200_chars": 2,
+      "english_over_200_chars": 2,
+      "unique_tachelhit": 979,
+      "unique_english": 953
+    },
+    "test": {
+      "rows": 997,
+      "missing_tachelhit": 0,
+      "missing_english": 0,
+      "duplicate_pairs": 0,
+      "tachelhit_over_200_chars": 0,
+      "english_over_200_chars": 0,
+      "unique_tachelhit": 997,
+      "unique_english": 980
+    }
+  },
+  "cross_split_overlap": {
+    "train_vs_validation": {
+      "tachelhit_overlap": 0,
+      "english_overlap": 427
+    },
+    "train_vs_test": {
+      "tachelhit_overlap": 0,
+      "english_overlap": 399
+    },
+    "validation_vs_test": {
+      "tachelhit_overlap": 0,
+      "english_overlap": 33
+    }
+  },
+  "conflict_rows": 1582
+}

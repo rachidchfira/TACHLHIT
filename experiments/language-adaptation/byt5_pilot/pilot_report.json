@@ -1,0 +1,11 @@
+{
+  "model": "google/byt5-small",
+  "device": "mps",
+  "train_examples": 64,
+  "validation_examples": 16,
+  "initial_validation_loss": 4.517884254455566,
+  "final_validation_loss": 2.9751184582710266,
+  "steps": 64,
+  "elapsed_seconds": 120.33164733299054,
+  "note": "Pilot only; not a reliable quality benchmark."
+}

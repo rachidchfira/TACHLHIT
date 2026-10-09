@@ -1,0 +1,11 @@
+{
+  "unique_tifinagh_chars": 33,
+  "unmapped_tifinagh_chars": [
+    {
+      "character": "ⴶ",
+      "unicode": "U+2D36",
+      "count": 2
+    }
+  ],
+  "interpretation": "Only a visual transliteration; dialect spelling not verified"
+}

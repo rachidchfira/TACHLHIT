@@ -1,0 +1,11 @@
+{
+  "version": "tifinagh_latin_review_v1",
+  "training_approved": false,
+  "original_audit_sha256": "893a03a0f079716abbb4075483d498df65f61a1516be5b0b4e72384f2264187c",
+  "original_sample_sha256": "3985fb7ead0639f57b6b358f551f892017c3e2a0c90d922f668b7f1619570d1d",
+  "all_candidates": 196,
+  "review_batch": 12,
+  "conversion_warnings_all": 0,
+  "conversion_warnings_sample": 0,
+  "note": "Latin letter conversion is mechanical, NOT native-verified. The Tifinagh original is preserved."
+}

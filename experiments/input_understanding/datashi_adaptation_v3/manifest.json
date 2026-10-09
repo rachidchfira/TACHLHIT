@@ -1,0 +1,17 @@
+{
+  "base": "vonjack/opus-mt-mul-en-big",
+  "start_adapter": "/Users/rachd/soussvoice/experiments/input_understanding/multilingual_lora_weighted_v2/best_adapter",
+  "training_file_sha256": "b1aa3fb3fd605472d3fddde63d308d54c02d979a65318e5cf7a36999631d41b9",
+  "training_examples": 1097,
+  "validation_examples": 157,
+  "test_examples_untouched": 141,
+  "removed": {
+    "held_out_overlap": 0,
+    "duplicate": 0
+  },
+  "steps": 120,
+  "batch_size": 2,
+  "accum": 4,
+  "lr": 3e-05,
+  "seed": 20261009
+}

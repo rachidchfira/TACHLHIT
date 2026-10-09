@@ -1,0 +1,23 @@
+{
+  "input_rows": 21435,
+  "connected_groups": 15137,
+  "largest_group": 20,
+  "train": 19247,
+  "validation": 1085,
+  "test": 1103,
+  "overlaps": {
+    "train_vs_validation": {
+      "shi": 0,
+      "en": 0
+    },
+    "train_vs_test": {
+      "shi": 0,
+      "en": 0
+    },
+    "validation_vs_test": {
+      "shi": 0,
+      "en": 0
+    }
+  },
+  "method": "Bilingual connected-component splitting"
+}

@@ -1,0 +1,30 @@
+{
+  "steps_planned": 120,
+  "last_step": 120,
+  "microbatch": 2,
+  "accum": 4,
+  "val_samples": 40,
+  "lr": 0.0001,
+  "baseline": {
+    "no_prefix": 19.55981591801395,
+    "literal_shi_prefix": 17.676834557473185
+  },
+  "use_tag": false,
+  "best_chrf": 24.276014707353568,
+  "best_step": 120,
+  "trace": [
+    {
+      "step": 0,
+      "chrf": 19.55981591801395
+    },
+    {
+      "step": 60,
+      "chrf": 23.80033985965247
+    },
+    {
+      "step": 120,
+      "chrf": 24.276014707353568
+    }
+  ],
+  "test_used": false
+}

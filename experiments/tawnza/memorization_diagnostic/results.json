@@ -1,0 +1,26 @@
+{
+  "steps": 80,
+  "training_minutes": 1.18,
+  "history": [
+    {
+      "step": 0,
+      "exact": 0,
+      "chrF": 37.51
+    },
+    {
+      "step": 40,
+      "exact": 6,
+      "chrF": 94.76
+    },
+    {
+      "step": 80,
+      "exact": 8,
+      "chrF": 100.0
+    },
+    {
+      "step": 80,
+      "exact": 8,
+      "chrF": 100.0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "base": "facebook/nllb-200-distilled-600M",
+  "initial_adapter": "experiments/tawnza/lora_pilot_v2/adapter",
+  "training_unique_pairs": 6000,
+  "training_example_presentations": 7416,
+  "optimizer_steps": 927,
+  "elapsed_minutes": 31.91,
+  "baseline_v2": {
+    "chrf": 29.0907,
+    "bleu": 4.7282
+  },
+  "last": {
+    "chrf": 32.0917,
+    "bleu": 7.3819
+  },
+  "best_chrf": 32.0917,
+  "best_at_step": 927,
+  "history": [
+    {
+      "step": 0,
+      "examples": 0,
+      "chrf": 29.0907,
+      "bleu": 4.7282
+    },
+    {
+      "step": 375,
+      "examples": 3000,
+      "chrf": 30.7052,
+      "bleu": 5.4565
+    },
+    {
+      "step": 750,
+      "examples": 6000,
+      "chrf": 31.6841,
+      "bleu": 6.7717
+    },
+    {
+      "step": 927,
+      "examples": 7416,
+      "final": true,
+      "chrf": 32.0917,
+      "bleu": 7.3819
+    }
+  ],
+  "best_adapter": "experiments/tawnza/stage3/best_adapter"
+}

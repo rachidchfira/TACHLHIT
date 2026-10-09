@@ -1,0 +1,12 @@
+{
+  "task": "Zero-shot Arabic -> Central Atlas Tamazight (Tifinagh) proxy baseline",
+  "model": "facebook/nllb-200-distilled-600M",
+  "source_lang": "arb_Arab",
+  "target_lang": "tzm_Tfng",
+  "sample_size": 80,
+  "sample_seed": 20261009,
+  "validation_corpus": "datasets/external/tawnza/clean_v3/validation.parquet",
+  "chrf": 22.022,
+  "note": "Mixed-variety corpus; chrF does not measure authentic Souss speech or conversational fluency.",
+  "predictions_csv": "experiments/tawnza/reverse_baseline/predictions.csv"
+}

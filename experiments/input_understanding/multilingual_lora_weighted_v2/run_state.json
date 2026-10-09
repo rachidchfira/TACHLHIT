@@ -1,0 +1,33 @@
+{
+  "steps_planned": 600,
+  "last_step": 600,
+  "microbatch": 2,
+  "accum": 4,
+  "val_samples": 200,
+  "lr": 0.0001,
+  "train_sha256": "b0e58dab2b1b3ef56b8dd7ab459e70a13f5252d0aafb54fd9b7bcdd41336c7f7",
+  "eval_every": 300,
+  "starting_adapter": "/Users/rachd/soussvoice/experiments/input_understanding/multilingual_lora_full_v1/best_adapter",
+  "baseline": {
+    "no_prefix": 30.997515636667984,
+    "literal_shi_prefix": 28.03734946793124
+  },
+  "use_tag": false,
+  "best_chrf": 31.554366486226698,
+  "best_step": 600,
+  "trace": [
+    {
+      "step": 0,
+      "chrf": 30.997515636667984
+    },
+    {
+      "step": 300,
+      "chrf": 31.357272030222834
+    },
+    {
+      "step": 600,
+      "chrf": 31.554366486226698
+    }
+  ],
+  "test_used": false
+}

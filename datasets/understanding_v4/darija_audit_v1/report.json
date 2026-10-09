@@ -1,0 +1,29 @@
+{
+  "version": "source_audit_v1",
+  "utc": "2026-10-09T08:08:01.267362+00:00",
+  "source": "darija",
+  "protected_files": [
+    "datasets/reverse_translation/v2/train.csv",
+    "datasets/reverse_translation/v2/validation.csv",
+    "datasets/reverse_translation/v2/test.csv",
+    "datasets/native_gold_v1/native_verified.csv",
+    "datasets/external/datashi/inputs.csv",
+    "experiments/input_understanding/datashi_comparison_v1/comparisons.csv"
+  ],
+  "protected_english_keys": 17259,
+  "protected_tachelhit_keys": 43758,
+  "training_approved": false,
+  "notes": [
+    "Platform validation is not native-speaker proof.",
+    "Unreviewed Tifinagh and Arabic-script inputs must not be silently converted or mixed with Latin training data.",
+    "English overlap is conservatively flagged even when the Tachelhit spelling differs."
+  ],
+  "darija": {
+    "total_downloaded_text_rows": 1386,
+    "categories": {
+      "duplicate_pair": 627,
+      "new_text_pairs_needing_review": 759
+    },
+    "license": "mit"
+  }
+}
